@@ -1,0 +1,13 @@
+{
+  "name": "personal-records",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webapp": "pnpm -F webapp dev",
+    "serve": "pnpm -F server start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
