@@ -1,8 +1,8 @@
 const KoaRouter = require('@koa/router');
-const { getTypes } = require('../controller/type.controller');
+const { list } = require('../controller/type.controller');
 
 const typeRouter = new KoaRouter({ prefix: '/type' });
 
-typeRouter.get('/list', getTypes);
+typeRouter.get('/list', list);
 
 module.exports = typeRouter;

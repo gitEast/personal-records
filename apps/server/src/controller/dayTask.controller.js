@@ -1,6 +1,6 @@
-const { list } = require('../service/type.service');
+const { list } = require('../service/dayTask.service');
 
-class TypeController {
+class DayTaskController {
   async list(ctx) {
     const data = await list();
     ctx.body = {
@@ -11,4 +11,4 @@ class TypeController {
   }
 }
 
-module.exports = new TypeController();
+module.exports = new DayTaskController();
